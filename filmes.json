@@ -4,7 +4,7 @@
     "titulo": "The Big Bang Theory",
     "genero": "Comédia",
     "descricao": "\"The Big Bang Theory\" é uma série de comédia americana que segue a vida de um grupo de cientistas nerds e suas interações sociais com uma vizinha.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/The_Big_Bang_Theory_logo.svg/1200px-The_Big_Bang_Theory_logo.svg.png",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9a/Big-bang-theory_Temporada_12_poster.jpg/250px-Big-bang-theory_Temporada_12_poster.jpg",
     "gostei": 24,
     "naogostei": 9
   },
@@ -13,7 +13,7 @@
     "titulo": "Game of Thrones",
     "genero": "Fantasia",
     "descricao": "\"Game of Thrones\" é uma série épica baseada nas obras de George R.R. Martin, que segue as lutas políticas e dinásticas no mundo fictício de Westeros.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Game_of_Thrones_logo.svg/1200px-Game_of_Thrones_logo.svg.png",
+    "imagem": "https://s2.glbimg.com/lip1rXjb7IfKWKhzwjKCCsKJcrA=/e.glbimg.com/og/ed/f/original/2017/08/17/game-of-thrones.jpg",
     "gostei": 15,
     "naogostei": 4
   },
@@ -22,7 +22,7 @@
     "titulo": "Stranger Things",
     "genero": "Mistério, Ficção Científica",
     "descricao": "\"Stranger Things\" é uma série de mistério e ficção científica ambientada na década de 1980, que segue um grupo de amigos enquanto enfrentam eventos sobrenaturais.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Stranger_Things_logo.svg",
+    "imagem": "https://blog.opinionbox.com/wp-content/uploads/2016/08/Stranger-Things-2-740x315.png",
     "gostei": 26,
     "naogostei": 5
   },
@@ -31,7 +31,7 @@
     "titulo": "Breaking Bad",
     "genero": "Drama, Crime",
     "descricao": "\"Breaking Bad\" é uma série dramática que segue Walter White, um professor de química que se torna fabricante de metanfetamina após ser diagnosticado com câncer terminal.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/6/61/Breaking_Bad_logo.svg",
+    "imagem": "https://sessaopipoca.com/wp-content/uploads/2025/01/1111277-scaled.jpg",
     "gostei": 30,
     "naogostei": 10
   },
@@ -40,7 +40,7 @@
     "titulo": "The Witcher",
     "genero": "Fantasia, Ação",
     "descricao": "\"The Witcher\" segue Geralt de Rívia, um caçador de monstros, enquanto ele lida com uma realidade cheia de magia, monstros e conflitos políticos.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Witcher_Logo.svg/1200px-The_Witcher_Logo.svg.png",
+    "imagem": "https://i.uai.com.br/uci-tOqaWPY0WsxmxNH6LvIhnv4=/750x0/imgsapp2.uai.com.br/app/noticia_133890394703/2019/12/20/254312/20191220050040102817a.jpg",
     "gostei": 22,
     "naogostei": 8
   },
@@ -48,9 +48,18 @@
     "titulo": "The boys",
     "genero": "Ação",
     "descricao": "\"The Boys\" é uma série de TV baseada nos quadrinhos de mesmo nome, que satiriza o gênero de super-heróis, mostrando um mundo onde super-heróis são celebridades controladas por uma poderosa corporação, a Vought International.",
-    "imagem": "theboys.jpg",
-    "gostei": 4,
+    "imagem": "https://pt.quizur.com/_image?href=https://img.quizur.com/f/img642d72be637762.14427841.jpg?lastEdited=1680700095&w=600&h=600&f=webp",
+    "gostei": 5,
     "naogostei": 1,
     "id": 6
+  },
+  {
+    "titulo": "Peaky Blinders",
+    "genero": "História, Drama, Crime, Suspense",
+    "descricao": "\"Peaky Blinders\" é uma série de televisão que se passa em Birmingham, Inglaterra, logo após a Primeira Guerra Mundial. A história acompanha a família Shelby, uma gangue de ciganos que controla a cidade e suas atividades criminosas, como corridas de cavalos, extorsão e contrabando. ",
+    "imagem": "https://planetadiariobr.com.br/wp-content/uploads/2025/02/peaky-blinders-personagens-thomas.webp",
+    "gostei": 0,
+    "naogostei": 1,
+    "id": 7
   }
 ]
