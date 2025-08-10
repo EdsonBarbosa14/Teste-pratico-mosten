@@ -4,7 +4,7 @@
                 .then(response => response.json())
                 .then(filmes => {
                     mostrarFilmes(filmes);
-                    atualizarVotosTotais(filmes); // Atualizar os votos totais
+                    atualizarVotosTotais(filmes);
                 })
                 .catch(error => {
                     console.error('Erro ao carregar filmes:', error);
@@ -14,7 +14,7 @@
         // Função para exibir os filmes na página e os votos de cada um
         function mostrarFilmes(filmes) {
             const areaVotoUnitario = document.getElementById('areaVotoUnitario');
-            areaVotoUnitario.innerHTML = ''; // Limpa a área antes de adicionar novos filmes
+            areaVotoUnitario.innerHTML = '';
 
             filmes.forEach(filme => {
                 const itemVotoUnitario = document.createElement('div');

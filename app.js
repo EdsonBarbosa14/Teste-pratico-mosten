@@ -63,11 +63,10 @@ app.post('/api/cadastro', (req, res) => {
 
     let filmes = JSON.parse(data);
 
-    // Adiciona o novo filme à lista de filmes
-    novoFilme.id = filmes.length + 1; // Gera um ID único
+    // Adiciona o novo filme à lista de filmes JSON
+    novoFilme.id = filmes.length + 1;
     filmes.push(novoFilme);
 
-    // Salva o filme no arquivo JSON
     fs.writeFile('./filmes.json', JSON.stringify(filmes, null, 2), 'utf-8', (err) => {
       if (err) {
         res.status(500).send('Erro ao salvar o arquivo JSON');
