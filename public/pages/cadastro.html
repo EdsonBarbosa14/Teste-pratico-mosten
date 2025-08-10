@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Prático Mosten</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/cadastro.js"></script>
+</head>
+<body>
+     <main class="conteudo flex column">
+        <div class="headerPagina flex">
+            <p class="tituloPagina">Cadastrar novo filme ou série</p>
+            <button class="btnHeader" onclick="window.location.href='../pages/index.html'">Página inicial</button>
+        </div> 
+        
+        <div class="linhaCadastro flex">
+            <p>Título:</p>
+            <input type="text" class="textboxCadastro" id="tituloID" required>
+        </div>
+        <div class="linhaCadastro flex">
+            <p>Gênero:</p>
+            <input type="text" class="textboxCadastro" id="generoID" required>
+        </div>
+        <div class="linhaCadastro flex">
+            <p>Descrição:</p>
+            <textarea class="textboxCadastroDescricao" id="descricaoID" required></textarea>
+        </div>
+        <div class="linhaCadastro flex">
+            <p>URL imagem:</p>
+            <input type="text" class="textboxCadastro" id="imagemID" required>
+        </div>
+
+        <button class="btnSalvarCadastro" onclick="cadastrarFilme()">Cadastrar</button>
+    </main>
+
+    <script  type="module" src="../scripts/cadastro.js"></script>
+</body>
+</html>

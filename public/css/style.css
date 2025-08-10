@@ -1,0 +1,306 @@
+/* CSS GERAL */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  background: 
+    url("../imagens/background.png"),
+    linear-gradient(to bottom, red 30%, transparent, white);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom center, center center;
+  background-attachment: fixed, scroll;
+  background-size: 100% auto, cover;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.conteudo{
+    width: 1200px;
+    height: 800px;
+    margin: 50px auto 0 auto;
+    background-color:#fff1b5;
+    border: thick solid black;
+    border-radius: 50px;
+
+}
+
+/* CSS INDEX */
+
+.buttonItemIndex{
+    width: 600px;
+    height: 150px;
+    margin: 60px auto 0 auto;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    
+}
+
+.buttonItemIndex:hover{
+    background-color: red;
+    color: yellow;
+}
+
+/* HEADER PÁGINAS DE VOTAÇÃO, CADASTRO E LISTA GERAL */
+
+.headerPagina{
+    width: 90%;
+    margin: 50px 5%;
+    justify-content: space-between;
+}
+
+.tituloPagina{
+    margin: 0;
+    color: red;
+    font-size: 60px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.btnHeader{
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.btnHeader:hover{
+    background-color: red;
+    color: yellow;
+}
+
+/* CSS PÁGINA VOTAÇÃO */
+
+.areaVotacao {
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 600px;
+  overflow-y: auto;
+  justify-content: space-around;
+
+}
+
+.itemVotacao {
+  width: 30%;
+  height: 550px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.tituloItem{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    background-color: red;
+    border-bottom: 2px solid black;
+}
+
+.generoItem{
+    height: 40px;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+.imgItem{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid black;
+}
+
+.descricaoItem{
+    width: 95%;
+    height: 165px;
+    padding: 10px 0 0 5%;
+    margin: 0;
+    border-bottom: 3px solid black;
+}
+
+.botoesItem{
+    width: 100%;
+    height: 50px;
+}
+
+.btnVotacaoGostei{
+    width: 50%;
+    border: none;
+    font-size: 25px;
+    border-right: 2px solid black;
+    background-color: #95f590;
+    color: black;
+}
+.btnVotacaoNaoGostei{
+    width: 50%;
+    border: none;
+    font-size: 25px;
+    background-color: #fc6565;
+    color: black;
+}
+
+.btnVotacaoGostei:hover{
+    background-color: green;
+    color: white;
+}
+
+.btnVotacaoNaoGostei:hover{
+    background-color: red;
+    color: white;
+}
+
+
+/* CSS PÁGINA CADASTRO FILME/SÉRIE */
+
+.linhaCadastro{
+    width: 90%;
+    min-height: 50px;
+    margin: 0 0 40px 5%;
+    padding: 0;
+    font-size: 30px;
+}
+
+.linhaCadastro p{
+    margin: 0;
+    width: 200px
+}
+
+.textboxCadastro{
+    
+    width: 800px;
+}
+
+.textboxCadastroDescricao{
+    width: 800px;
+    height: 200px;
+    resize: none;
+}
+.textboxCadastro, .textboxCadastroDescricao{
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+}
+
+.btnSalvarCadastro{
+    width: 300px;
+    height: 60px;
+    margin-left: 850px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+.btnSalvarCadastro:hover{
+    background-color: green;
+    color: white;
+}
+/* CSS P�GINA LISTA GERAL */
+
+.subtituloPaginaLista{
+    margin: 0;
+    color: red;
+    font-size: 40px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+.areaVotosGerais{
+    justify-content: center;
+}
+
+.votosGeraisGostei, .votosGeraisNaoGostei{
+    width: 200px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px 50px 20px 0;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.votosGeraisGostei{
+    background-color: green;
+}
+
+.votosGeraisNaoGostei{
+    background-color: red;
+}
+
+.areaVotoUnitario{
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 360px;
+  overflow-y: auto;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.itemVotoUnitario{
+  width: 30%;
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.tituloItemVotoUnitario{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.areaVotosItemUnitario{
+    width: 100%;
+    height: 80px;
+}
+
+.votosGosteiUnitario{
+    width: 50%;
+    font-size: 25px;
+    border-right: 2px solid black;
+    background-color: green;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.votosNaoGosteiUnitario{
+    width: 50%;
+    font-size: 25px;
+    border-right: 2px solid black;
+    background-color: red;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
