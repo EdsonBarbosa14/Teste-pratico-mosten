@@ -1,4 +1,4 @@
-// FunÁ„o para capturar os dados do formul·rio e enviar para o backend
+// FunÔøΩÔøΩo para capturar os dados do formul√°rio e enviar para o backend
 function cadastrarFilme() {
     // Captura os dados dos inputs
     const titulo = document.getElementById('tituloID').value;
@@ -34,7 +34,7 @@ function cadastrarFilme() {
     .then(data => {
         if (data.success) {
             alert("Filme cadastrado com sucesso!");
-            // Limpar os campos do formul·rio
+            // Limpar os campos do formul√°rio
             document.getElementById('tituloID').value = '';
             document.getElementById('generoID').value = '';
             document.getElementById('descricaoID').value = '';
