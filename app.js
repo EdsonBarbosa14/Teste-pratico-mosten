@@ -79,5 +79,5 @@ app.post('/api/cadastro', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
+  console.log(`Servidor rodando em http://localhost:${port}/pages/index.html`);
 });

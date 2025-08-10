@@ -41,7 +41,7 @@ body {
 .buttonItemIndex{
     width: 600px;
     height: 150px;
-    margin: 60px auto 0 auto;
+    margin: 87.5px auto 0 auto;
     font-size: 40px;
     color: black;
     background-color: white;
@@ -199,7 +199,7 @@ body {
 }
 .textboxCadastro, .textboxCadastroDescricao{
     font-size: 20px;
-    padding: 10px 0 0 10px;
+    padding-left: 10px;
 }
 
 .btnSalvarCadastro{

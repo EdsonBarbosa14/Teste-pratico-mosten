@@ -5,8 +5,8 @@
     "genero": "Comédia",
     "descricao": "\"The Big Bang Theory\" é uma série de comédia americana que segue a vida de um grupo de cientistas nerds e suas interações sociais com uma vizinha.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/The_Big_Bang_Theory_logo.svg/1200px-The_Big_Bang_Theory_logo.svg.png",
-    "gostei": 16,
-    "naogostei": 8
+    "gostei": 24,
+    "naogostei": 9
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "descricao": "\"Game of Thrones\" é uma série épica baseada nas obras de George R.R. Martin, que segue as lutas políticas e dinásticas no mundo fictício de Westeros.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Game_of_Thrones_logo.svg/1200px-Game_of_Thrones_logo.svg.png",
     "gostei": 15,
-    "naogostei": 3
+    "naogostei": 4
   },
   {
     "id": 3,
@@ -23,7 +23,7 @@
     "genero": "Mistério, Ficção Científica",
     "descricao": "\"Stranger Things\" é uma série de mistério e ficção científica ambientada na década de 1980, que segue um grupo de amigos enquanto enfrentam eventos sobrenaturais.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Stranger_Things_logo.svg",
-    "gostei": 25,
+    "gostei": 26,
     "naogostei": 5
   },
   {
@@ -43,5 +43,23 @@
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Witcher_Logo.svg/1200px-The_Witcher_Logo.svg.png",
     "gostei": 22,
     "naogostei": 8
+  },
+  {
+    "titulo": "The boys",
+    "genero": "Ação",
+    "descricao": "\"The Boys\" é uma série de TV baseada nos quadrinhos de mesmo nome, que satiriza o gênero de super-heróis, mostrando um mundo onde super-heróis são celebridades controladas por uma poderosa corporação, a Vought International.",
+    "imagem": "theboys.jpg",
+    "gostei": 4,
+    "naogostei": 1,
+    "id": 6
+  },
+  {
+    "titulo": "jooj",
+    "genero": "jooj",
+    "descricao": "jooj",
+    "imagem": "jooj",
+    "gostei": 1,
+    "naogostei": 3,
+    "id": 7
   }
 ]
